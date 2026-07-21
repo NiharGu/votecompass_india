@@ -1,0 +1,11 @@
+bertopic
+sentence-transformers
+scikit-learn
+gensim
+numpy
+torch
+transformers
+pytesseract
+umap-learn
+hdbscan
+safetensors
