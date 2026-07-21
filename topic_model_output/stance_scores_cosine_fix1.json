@@ -1,0 +1,2285 @@
+{
+  "model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "method": "cosine_fix1_topic_only",
+  "axes": [
+    "agriculture",
+    "economy",
+    "public_sector",
+    "labour",
+    "healthcare",
+    "women",
+    "defence",
+    "environment",
+    "federalism",
+    "infrastructure",
+    "education",
+    "social_security",
+    "communal"
+  ],
+  "parties": [
+    "BJP",
+    "INC",
+    "CPIM",
+    "TMC",
+    "NCPSP",
+    "DMK",
+    "SP",
+    "NCPAP"
+  ],
+  "scores": {
+    "agriculture": {
+      "BJP": {
+        "score": null,
+        "n_chunks": 0,
+        "mean_abs": null,
+        "chunk_ids": [],
+        "chunk_scores": []
+      },
+      "INC": {
+        "score": -0.011,
+        "n_chunks": 3,
+        "mean_abs": 0.1218,
+        "chunk_ids": [
+          "INC_41",
+          "INC_42",
+          "INC_43"
+        ],
+        "chunk_scores": [
+          -0.1309,
+          0.1452,
+          -0.0892
+        ]
+      },
+      "CPIM": {
+        "score": -0.1245,
+        "n_chunks": 3,
+        "mean_abs": 0.1379,
+        "chunk_ids": [
+          "CPIM_42",
+          "CPIM_81",
+          "CPIM_82"
+        ],
+        "chunk_scores": [
+          0.0761,
+          -0.1818,
+          -0.1557
+        ]
+      },
+      "TMC": {
+        "score": -0.1376,
+        "n_chunks": 4,
+        "mean_abs": 0.1169,
+        "chunk_ids": [
+          "TMC_5",
+          "TMC_26",
+          "TMC_38",
+          "TMC_43"
+        ],
+        "chunk_scores": [
+          -0.1281,
+          -0.1771,
+          -0.1321,
+          0.0302
+        ]
+      },
+      "NCPSP": {
+        "score": null,
+        "n_chunks": 1,
+        "mean_abs": null,
+        "chunk_ids": [
+          "NCPSP_11"
+        ],
+        "chunk_scores": [
+          -0.06746155023574829
+        ]
+      },
+      "DMK": {
+        "score": -0.2283,
+        "n_chunks": 2,
+        "mean_abs": 0.2149,
+        "chunk_ids": [
+          "DMK_38",
+          "DMK_54"
+        ],
+        "chunk_scores": [
+          -0.1612,
+          -0.2685
+        ]
+      },
+      "SP": {
+        "score": null,
+        "n_chunks": 1,
+        "mean_abs": null,
+        "chunk_ids": [
+          "SP_4"
+        ],
+        "chunk_scores": [
+          -0.09870147705078125
+        ]
+      },
+      "NCPAP": {
+        "score": null,
+        "n_chunks": 1,
+        "mean_abs": null,
+        "chunk_ids": [
+          "NCPAP_17"
+        ],
+        "chunk_scores": [
+          -0.31096041202545166
+        ]
+      }
+    },
+    "economy": {
+      "BJP": {
+        "score": 0.1538,
+        "n_chunks": 47,
+        "mean_abs": 0.1173,
+        "chunk_ids": [
+          "BJP_1",
+          "BJP_2",
+          "BJP_3",
+          "BJP_4",
+          "BJP_5",
+          "BJP_7",
+          "BJP_8",
+          "BJP_11",
+          "BJP_21",
+          "BJP_22",
+          "BJP_25",
+          "BJP_26",
+          "BJP_31",
+          "BJP_32",
+          "BJP_34",
+          "BJP_35",
+          "BJP_40",
+          "BJP_42",
+          "BJP_43",
+          "BJP_44",
+          "BJP_45",
+          "BJP_47",
+          "BJP_48",
+          "BJP_50",
+          "BJP_56",
+          "BJP_57",
+          "BJP_58",
+          "BJP_59",
+          "BJP_65",
+          "BJP_66",
+          "BJP_67",
+          "BJP_69",
+          "BJP_70",
+          "BJP_71",
+          "BJP_72",
+          "BJP_73",
+          "BJP_74",
+          "BJP_79",
+          "BJP_80",
+          "BJP_81",
+          "BJP_84",
+          "BJP_87",
+          "BJP_89",
+          "BJP_94",
+          "BJP_99",
+          "BJP_100",
+          "BJP_101"
+        ],
+        "chunk_scores": [
+          0.019,
+          0.036,
+          0.1944,
+          0.2235,
+          0.0131,
+          0.0869,
+          0.1299,
+          0.0953,
+          0.1426,
+          0.1632,
+          0.0731,
+          0.1276,
+          0.0168,
+          0.1767,
+          0.1841,
+          0.0647,
+          0.0974,
+          0.2373,
+          0.0714,
+          0.1029,
+          0.162,
+          0.1028,
+          0.1614,
+          0.1624,
+          0.1947,
+          0.1104,
+          0.1449,
+          0.0384,
+          0.0699,
+          0.1063,
+          0.0214,
+          0.2892,
+          0.1559,
+          0.217,
+          0.1885,
+          0.1789,
+          0.2631,
+          -0.0465,
+          0.0153,
+          0.0018,
+          0.1367,
+          -0.068,
+          -0.0265,
+          -0.0907,
+          0.0825,
+          0.1096,
+          0.1134
+        ]
+      },
+      "INC": {
+        "score": 0.0793,
+        "n_chunks": 24,
+        "mean_abs": 0.0907,
+        "chunk_ids": [
+          "INC_0",
+          "INC_1",
+          "INC_2",
+          "INC_4",
+          "INC_5",
+          "INC_6",
+          "INC_24",
+          "INC_35",
+          "INC_40",
+          "INC_52",
+          "INC_57",
+          "INC_60",
+          "INC_61",
+          "INC_65",
+          "INC_66",
+          "INC_67",
+          "INC_68",
+          "INC_69",
+          "INC_73",
+          "INC_76",
+          "INC_77",
+          "INC_78",
+          "INC_80",
+          "INC_108"
+        ],
+        "chunk_scores": [
+          0.1818,
+          0.087,
+          -0.0868,
+          0.1313,
+          -0.2893,
+          0.0214,
+          0.0037,
+          -0.0272,
+          0.0482,
+          0.0056,
+          0.0697,
+          0.0419,
+          0.1024,
+          0.1233,
+          -0.0337,
+          0.0018,
+          0.0504,
+          -0.0983,
+          -0.0321,
+          0.2376,
+          0.2839,
+          0.209,
+          0.0081,
+          -0.0016
+        ]
+      },
+      "CPIM": {
+        "score": 0.0889,
+        "n_chunks": 12,
+        "mean_abs": 0.0661,
+        "chunk_ids": [
+          "CPIM_11",
+          "CPIM_13",
+          "CPIM_15",
+          "CPIM_16",
+          "CPIM_17",
+          "CPIM_18",
+          "CPIM_19",
+          "CPIM_20",
+          "CPIM_21",
+          "CPIM_22",
+          "CPIM_32",
+          "CPIM_33"
+        ],
+        "chunk_scores": [
+          0.0519,
+          -0.0605,
+          0.0767,
+          0.2288,
+          -0.0533,
+          -0.0684,
+          -0.0269,
+          0.0054,
+          -0.0099,
+          0.074,
+          -0.0102,
+          0.1271
+        ]
+      },
+      "TMC": {
+        "score": 0.1568,
+        "n_chunks": 14,
+        "mean_abs": 0.079,
+        "chunk_ids": [
+          "TMC_8",
+          "TMC_20",
+          "TMC_21",
+          "TMC_22",
+          "TMC_23",
+          "TMC_25",
+          "TMC_30",
+          "TMC_32",
+          "TMC_37",
+          "TMC_39",
+          "TMC_55",
+          "TMC_62",
+          "TMC_84",
+          "TMC_99"
+        ],
+        "chunk_scores": [
+          0.074,
+          0.0614,
+          -0.0226,
+          0.0117,
+          0.0292,
+          0.2053,
+          0.1185,
+          0.2693,
+          0.1663,
+          0.0254,
+          0.0136,
+          0.0789,
+          0.0211,
+          -0.009
+        ]
+      },
+      "NCPSP": {
+        "score": 0.1551,
+        "n_chunks": 4,
+        "mean_abs": 0.1217,
+        "chunk_ids": [
+          "NCPSP_1",
+          "NCPSP_2",
+          "NCPSP_30",
+          "NCPSP_31"
+        ],
+        "chunk_scores": [
+          -0.0493,
+          0.1944,
+          0.1944,
+          0.0488
+        ]
+      },
+      "DMK": {
+        "score": -0.0209,
+        "n_chunks": 2,
+        "mean_abs": 0.0265,
+        "chunk_ids": [
+          "DMK_17",
+          "DMK_19"
+        ],
+        "chunk_scores": [
+          -0.037,
+          0.0161
+        ]
+      },
+      "SP": {
+        "score": 0.065,
+        "n_chunks": 2,
+        "mean_abs": 0.1301,
+        "chunk_ids": [
+          "SP_6",
+          "SP_11"
+        ],
+        "chunk_scores": [
+          -0.0976,
+          0.1626
+        ]
+      },
+      "NCPAP": {
+        "score": 0.1565,
+        "n_chunks": 9,
+        "mean_abs": 0.1317,
+        "chunk_ids": [
+          "NCPAP_8",
+          "NCPAP_9",
+          "NCPAP_12",
+          "NCPAP_13",
+          "NCPAP_14",
+          "NCPAP_19",
+          "NCPAP_20",
+          "NCPAP_21",
+          "NCPAP_28"
+        ],
+        "chunk_scores": [
+          0.1622,
+          0.0091,
+          0.1446,
+          0.1622,
+          0.0745,
+          0.1763,
+          0.1208,
+          0.2142,
+          0.1216
+        ]
+      }
+    },
+    "public_sector": {
+      "BJP": {
+        "score": 0.0667,
+        "n_chunks": 2,
+        "mean_abs": 0.0553,
+        "chunk_ids": [
+          "BJP_49",
+          "BJP_68"
+        ],
+        "chunk_scores": [
+          0.0303,
+          0.0804
+        ]
+      },
+      "INC": {
+        "score": 0.0241,
+        "n_chunks": 3,
+        "mean_abs": 0.0351,
+        "chunk_ids": [
+          "INC_63",
+          "INC_74",
+          "INC_75"
+        ],
+        "chunk_scores": [
+          0.0349,
+          -0.0258,
+          0.0446
+        ]
+      },
+      "CPIM": {
+        "score": 0.0137,
+        "n_chunks": 15,
+        "mean_abs": 0.0312,
+        "chunk_ids": [
+          "CPIM_14",
+          "CPIM_47",
+          "CPIM_48",
+          "CPIM_50",
+          "CPIM_51",
+          "CPIM_52",
+          "CPIM_54",
+          "CPIM_55",
+          "CPIM_56",
+          "CPIM_57",
+          "CPIM_59",
+          "CPIM_60",
+          "CPIM_61",
+          "CPIM_62",
+          "CPIM_99"
+        ],
+        "chunk_scores": [
+          -0.0335,
+          0.0121,
+          0.0468,
+          0.0104,
+          -0.0462,
+          -0.0267,
+          0.076,
+          0.0395,
+          0.0054,
+          -0.0125,
+          0.0371,
+          -0.045,
+          -0.0222,
+          -0.01,
+          0.0442
+        ]
+      },
+      "TMC": {
+        "score": -0.019,
+        "n_chunks": 4,
+        "mean_abs": 0.0267,
+        "chunk_ids": [
+          "TMC_27",
+          "TMC_28",
+          "TMC_44",
+          "TMC_60"
+        ],
+        "chunk_scores": [
+          0.0258,
+          0.0149,
+          -0.0522,
+          -0.0139
+        ]
+      },
+      "NCPSP": {
+        "score": -0.0778,
+        "n_chunks": 4,
+        "mean_abs": 0.0323,
+        "chunk_ids": [
+          "NCPSP_3",
+          "NCPSP_32",
+          "NCPSP_33",
+          "NCPSP_44"
+        ],
+        "chunk_scores": [
+          -0.0192,
+          -0.0011,
+          -0.0978,
+          -0.0112
+        ]
+      },
+      "DMK": {
+        "score": -0.0493,
+        "n_chunks": 2,
+        "mean_abs": 0.0371,
+        "chunk_ids": [
+          "DMK_48",
+          "DMK_50"
+        ],
+        "chunk_scores": [
+          -0.0157,
+          -0.0584
+        ]
+      },
+      "SP": {
+        "score": null,
+        "n_chunks": 0,
+        "mean_abs": null,
+        "chunk_ids": [],
+        "chunk_scores": []
+      },
+      "NCPAP": {
+        "score": null,
+        "n_chunks": 0,
+        "mean_abs": null,
+        "chunk_ids": [],
+        "chunk_scores": []
+      }
+    },
+    "labour": {
+      "BJP": {
+        "score": -0.1364,
+        "n_chunks": 5,
+        "mean_abs": 0.1032,
+        "chunk_ids": [
+          "BJP_12",
+          "BJP_16",
+          "BJP_23",
+          "BJP_24",
+          "BJP_46"
+        ],
+        "chunk_scores": [
+          -0.2198,
+          -0.0823,
+          -0.1363,
+          0.0495,
+          0.0283
+        ]
+      },
+      "INC": {
+        "score": -0.159,
+        "n_chunks": 5,
+        "mean_abs": 0.0884,
+        "chunk_ids": [
+          "INC_45",
+          "INC_46",
+          "INC_64",
+          "INC_70",
+          "INC_72"
+        ],
+        "chunk_scores": [
+          -0.0992,
+          -0.239,
+          -0.0575,
+          -0.0235,
+          0.0229
+        ]
+      },
+      "CPIM": {
+        "score": -0.2004,
+        "n_chunks": 10,
+        "mean_abs": 0.1606,
+        "chunk_ids": [
+          "CPIM_68",
+          "CPIM_69",
+          "CPIM_75",
+          "CPIM_76",
+          "CPIM_77",
+          "CPIM_78",
+          "CPIM_79",
+          "CPIM_80",
+          "CPIM_83",
+          "CPIM_106"
+        ],
+        "chunk_scores": [
+          -0.2404,
+          -0.1821,
+          -0.1243,
+          -0.3339,
+          -0.1782,
+          -0.1229,
+          -0.0375,
+          -0.1071,
+          -0.1907,
+          -0.0889
+        ]
+      },
+      "TMC": {
+        "score": -0.1555,
+        "n_chunks": 8,
+        "mean_abs": 0.1423,
+        "chunk_ids": [
+          "TMC_4",
+          "TMC_24",
+          "TMC_29",
+          "TMC_36",
+          "TMC_58",
+          "TMC_64",
+          "TMC_100",
+          "TMC_101"
+        ],
+        "chunk_scores": [
+          -0.1689,
+          -0.1511,
+          -0.1578,
+          -0.1635,
+          -0.1111,
+          -0.0808,
+          -0.2182,
+          -0.0867
+        ]
+      },
+      "NCPSP": {
+        "score": null,
+        "n_chunks": 1,
+        "mean_abs": null,
+        "chunk_ids": [
+          "NCPSP_13"
+        ],
+        "chunk_scores": [
+          -0.11499267816543579
+        ]
+      },
+      "DMK": {
+        "score": -0.164,
+        "n_chunks": 5,
+        "mean_abs": 0.1579,
+        "chunk_ids": [
+          "DMK_4",
+          "DMK_14",
+          "DMK_34",
+          "DMK_40",
+          "DMK_55"
+        ],
+        "chunk_scores": [
+          -0.1598,
+          -0.1891,
+          -0.0988,
+          -0.1753,
+          -0.1664
+        ]
+      },
+      "SP": {
+        "score": null,
+        "n_chunks": 1,
+        "mean_abs": null,
+        "chunk_ids": [
+          "SP_9"
+        ],
+        "chunk_scores": [
+          -0.35426628589630127
+        ]
+      },
+      "NCPAP": {
+        "score": null,
+        "n_chunks": 1,
+        "mean_abs": null,
+        "chunk_ids": [
+          "NCPAP_16"
+        ],
+        "chunk_scores": [
+          -0.21468612551689148
+        ]
+      }
+    },
+    "healthcare": {
+      "BJP": {
+        "score": -0.0527,
+        "n_chunks": 4,
+        "mean_abs": 0.0291,
+        "chunk_ids": [
+          "BJP_51",
+          "BJP_91",
+          "BJP_92",
+          "BJP_93"
+        ],
+        "chunk_scores": [
+          -0.0666,
+          -0.0034,
+          -0.0406,
+          -0.0058
+        ]
+      },
+      "INC": {
+        "score": -0.0908,
+        "n_chunks": 4,
+        "mean_abs": 0.0729,
+        "chunk_ids": [
+          "INC_20",
+          "INC_21",
+          "INC_22",
+          "INC_23"
+        ],
+        "chunk_scores": [
+          -0.0312,
+          -0.054,
+          -0.1285,
+          -0.078
+        ]
+      },
+      "CPIM": {
+        "score": -0.0362,
+        "n_chunks": 2,
+        "mean_abs": 0.0278,
+        "chunk_ids": [
+          "CPIM_103",
+          "CPIM_104"
+        ],
+        "chunk_scores": [
+          0.0097,
+          -0.0459
+        ]
+      },
+      "TMC": {
+        "score": 0.0822,
+        "n_chunks": 4,
+        "mean_abs": 0.0719,
+        "chunk_ids": [
+          "TMC_54",
+          "TMC_56",
+          "TMC_57",
+          "TMC_59"
+        ],
+        "chunk_scores": [
+          0.0851,
+          0.0319,
+          0.1055,
+          0.0651
+        ]
+      },
+      "NCPSP": {
+        "score": 0.0189,
+        "n_chunks": 2,
+        "mean_abs": 0.0154,
+        "chunk_ids": [
+          "NCPSP_22",
+          "NCPSP_23"
+        ],
+        "chunk_scores": [
+          -0.006,
+          0.0249
+        ]
+      },
+      "DMK": {
+        "score": -0.0524,
+        "n_chunks": 3,
+        "mean_abs": 0.0369,
+        "chunk_ids": [
+          "DMK_5",
+          "DMK_51",
+          "DMK_52"
+        ],
+        "chunk_scores": [
+          -0.007,
+          -0.038,
+          -0.0656
+        ]
+      },
+      "SP": {
+        "score": null,
+        "n_chunks": 1,
+        "mean_abs": null,
+        "chunk_ids": [
+          "SP_7"
+        ],
+        "chunk_scores": [
+          -0.011180639266967773
+        ]
+      },
+      "NCPAP": {
+        "score": null,
+        "n_chunks": 0,
+        "mean_abs": null,
+        "chunk_ids": [],
+        "chunk_scores": []
+      }
+    },
+    "women": {
+      "BJP": {
+        "score": 0.1618,
+        "n_chunks": 5,
+        "mean_abs": 0.163,
+        "chunk_ids": [
+          "BJP_13",
+          "BJP_28",
+          "BJP_29",
+          "BJP_30",
+          "BJP_88"
+        ],
+        "chunk_scores": [
+          0.1832,
+          0.2957,
+          0.1364,
+          0.0805,
+          -0.1191
+        ]
+      },
+      "INC": {
+        "score": -0.086,
+        "n_chunks": 6,
+        "mean_abs": 0.1295,
+        "chunk_ids": [
+          "INC_3",
+          "INC_36",
+          "INC_37",
+          "INC_38",
+          "INC_39",
+          "INC_93"
+        ],
+        "chunk_scores": [
+          0.0598,
+          -0.1617,
+          -0.1402,
+          -0.1967,
+          0.1415,
+          -0.0771
+        ]
+      },
+      "CPIM": {
+        "score": -0.1847,
+        "n_chunks": 6,
+        "mean_abs": 0.1362,
+        "chunk_ids": [
+          "CPIM_84",
+          "CPIM_85",
+          "CPIM_86",
+          "CPIM_87",
+          "CPIM_88",
+          "CPIM_96"
+        ],
+        "chunk_scores": [
+          -0.0945,
+          -0.1167,
+          -0.2041,
+          -0.0939,
+          -0.2775,
+          -0.0307
+        ]
+      },
+      "TMC": {
+        "score": 0.1135,
+        "n_chunks": 9,
+        "mean_abs": 0.1163,
+        "chunk_ids": [
+          "TMC_6",
+          "TMC_73",
+          "TMC_76",
+          "TMC_77",
+          "TMC_78",
+          "TMC_79",
+          "TMC_80",
+          "TMC_81",
+          "TMC_82"
+        ],
+        "chunk_scores": [
+          0.2533,
+          0.1356,
+          0.0809,
+          -0.1131,
+          -0.0324,
+          0.2336,
+          -0.041,
+          0.0488,
+          -0.1082
+        ]
+      },
+      "NCPSP": {
+        "score": 0.0111,
+        "n_chunks": 4,
+        "mean_abs": 0.0595,
+        "chunk_ids": [
+          "NCPSP_9",
+          "NCPSP_10",
+          "NCPSP_40",
+          "NCPSP_47"
+        ],
+        "chunk_scores": [
+          0.0986,
+          0.0434,
+          0.0013,
+          -0.0948
+        ]
+      },
+      "DMK": {
+        "score": null,
+        "n_chunks": 1,
+        "mean_abs": null,
+        "chunk_ids": [
+          "DMK_33"
+        ],
+        "chunk_scores": [
+          0.01947730779647827
+        ]
+      },
+      "SP": {
+        "score": null,
+        "n_chunks": 1,
+        "mean_abs": null,
+        "chunk_ids": [
+          "SP_8"
+        ],
+        "chunk_scores": [
+          -0.048741042613983154
+        ]
+      },
+      "NCPAP": {
+        "score": 0.1238,
+        "n_chunks": 3,
+        "mean_abs": 0.0777,
+        "chunk_ids": [
+          "NCPAP_15",
+          "NCPAP_22",
+          "NCPAP_23"
+        ],
+        "chunk_scores": [
+          -0.0084,
+          0.1552,
+          0.0694
+        ]
+      }
+    },
+    "defence": {
+      "BJP": {
+        "score": 0.0679,
+        "n_chunks": 4,
+        "mean_abs": 0.0551,
+        "chunk_ids": [
+          "BJP_17",
+          "BJP_61",
+          "BJP_62",
+          "BJP_63"
+        ],
+        "chunk_scores": [
+          0.0421,
+          0.0908,
+          0.0675,
+          0.0201
+        ]
+      },
+      "INC": {
+        "score": 0.0865,
+        "n_chunks": 8,
+        "mean_abs": 0.0768,
+        "chunk_ids": [
+          "INC_51",
+          "INC_92",
+          "INC_94",
+          "INC_96",
+          "INC_98",
+          "INC_99",
+          "INC_100",
+          "INC_101"
+        ],
+        "chunk_scores": [
+          -0.0546,
+          0.1462,
+          0.1041,
+          0.1547,
+          -0.0616,
+          0.0287,
+          -0.0093,
+          0.0548
+        ]
+      },
+      "CPIM": {
+        "score": 0.0113,
+        "n_chunks": 8,
+        "mean_abs": 0.0592,
+        "chunk_ids": [
+          "CPIM_35",
+          "CPIM_38",
+          "CPIM_39",
+          "CPIM_53",
+          "CPIM_63",
+          "CPIM_71",
+          "CPIM_72",
+          "CPIM_74"
+        ],
+        "chunk_scores": [
+          0.0896,
+          0.067,
+          -0.0574,
+          0.079,
+          -0.0311,
+          -0.0704,
+          -0.066,
+          0.0131
+        ]
+      },
+      "TMC": {
+        "score": 0.1374,
+        "n_chunks": 3,
+        "mean_abs": 0.1209,
+        "chunk_ids": [
+          "TMC_17",
+          "TMC_70",
+          "TMC_71"
+        ],
+        "chunk_scores": [
+          0.0971,
+          0.1834,
+          0.0821
+        ]
+      },
+      "NCPSP": {
+        "score": 0.1788,
+        "n_chunks": 2,
+        "mean_abs": 0.1126,
+        "chunk_ids": [
+          "NCPSP_39",
+          "NCPSP_42"
+        ],
+        "chunk_scores": [
+          0.199,
+          0.0263
+        ]
+      },
+      "DMK": {
+        "score": null,
+        "n_chunks": 1,
+        "mean_abs": null,
+        "chunk_ids": [
+          "DMK_16"
+        ],
+        "chunk_scores": [
+          0.04451406002044678
+        ]
+      },
+      "SP": {
+        "score": null,
+        "n_chunks": 1,
+        "mean_abs": null,
+        "chunk_ids": [
+          "SP_12"
+        ],
+        "chunk_scores": [
+          0.05414462089538574
+        ]
+      },
+      "NCPAP": {
+        "score": -0.0801,
+        "n_chunks": 2,
+        "mean_abs": 0.0549,
+        "chunk_ids": [
+          "NCPAP_10",
+          "NCPAP_35"
+        ],
+        "chunk_scores": [
+          -0.0177,
+          -0.0921
+        ]
+      }
+    },
+    "environment": {
+      "BJP": {
+        "score": 0.1368,
+        "n_chunks": 7,
+        "mean_abs": 0.0833,
+        "chunk_ids": [
+          "BJP_27",
+          "BJP_83",
+          "BJP_102",
+          "BJP_103",
+          "BJP_104",
+          "BJP_105",
+          "BJP_106"
+        ],
+        "chunk_scores": [
+          0.1444,
+          0.2227,
+          -0.0116,
+          -0.0261,
+          0.1097,
+          -0.048,
+          0.0209
+        ]
+      },
+      "INC": {
+        "score": 0.0306,
+        "n_chunks": 16,
+        "mean_abs": 0.0603,
+        "chunk_ids": [
+          "INC_10",
+          "INC_14",
+          "INC_44",
+          "INC_81",
+          "INC_85",
+          "INC_86",
+          "INC_87",
+          "INC_88",
+          "INC_89",
+          "INC_97",
+          "INC_102",
+          "INC_103",
+          "INC_104",
+          "INC_105",
+          "INC_106",
+          "INC_107"
+        ],
+        "chunk_scores": [
+          -0.1045,
+          -0.0064,
+          0.0195,
+          0.0773,
+          0.0009,
+          -0.0634,
+          0.0711,
+          0.0493,
+          0.1251,
+          0.1063,
+          -0.0652,
+          -0.0622,
+          0.0093,
+          -0.0447,
+          0.0579,
+          0.1023
+        ]
+      },
+      "CPIM": {
+        "score": -0.0732,
+        "n_chunks": 8,
+        "mean_abs": 0.0587,
+        "chunk_ids": [
+          "CPIM_65",
+          "CPIM_66",
+          "CPIM_67",
+          "CPIM_109",
+          "CPIM_110",
+          "CPIM_111",
+          "CPIM_112",
+          "CPIM_114"
+        ],
+        "chunk_scores": [
+          -0.0225,
+          -0.0698,
+          -0.1592,
+          0.015,
+          0.0144,
+          0.0625,
+          0.0316,
+          -0.0947
+        ]
+      },
+      "TMC": {
+        "score": -0.0164,
+        "n_chunks": 5,
+        "mean_abs": 0.0601,
+        "chunk_ids": [
+          "TMC_61",
+          "TMC_69",
+          "TMC_114",
+          "TMC_117",
+          "TMC_119"
+        ],
+        "chunk_scores": [
+          0.0264,
+          0.1021,
+          -0.1205,
+          0.011,
+          -0.0406
+        ]
+      },
+      "NCPSP": {
+        "score": 0.0761,
+        "n_chunks": 7,
+        "mean_abs": 0.066,
+        "chunk_ids": [
+          "NCPSP_12",
+          "NCPSP_28",
+          "NCPSP_29",
+          "NCPSP_34",
+          "NCPSP_35",
+          "NCPSP_36",
+          "NCPSP_37"
+        ],
+        "chunk_scores": [
+          0.0571,
+          -0.0237,
+          0.1229,
+          0.0789,
+          0.0437,
+          0.0655,
+          0.0699
+        ]
+      },
+      "DMK": {
+        "score": 0.0867,
+        "n_chunks": 3,
+        "mean_abs": 0.0583,
+        "chunk_ids": [
+          "DMK_27",
+          "DMK_41",
+          "DMK_42"
+        ],
+        "chunk_scores": [
+          0.1144,
+          0.0416,
+          0.019
+        ]
+      },
+      "SP": {
+        "score": 0.0888,
+        "n_chunks": 2,
+        "mean_abs": 0.1103,
+        "chunk_ids": [
+          "SP_10",
+          "SP_13"
+        ],
+        "chunk_scores": [
+          -0.0659,
+          0.1547
+        ]
+      },
+      "NCPAP": {
+        "score": -0.0853,
+        "n_chunks": 4,
+        "mean_abs": 0.0742,
+        "chunk_ids": [
+          "NCPAP_18",
+          "NCPAP_30",
+          "NCPAP_31",
+          "NCPAP_32"
+        ],
+        "chunk_scores": [
+          0.002,
+          0.0622,
+          -0.0836,
+          -0.149
+        ]
+      }
+    },
+    "federalism": {
+      "BJP": {
+        "score": 0.084,
+        "n_chunks": 4,
+        "mean_abs": 0.0779,
+        "chunk_ids": [
+          "BJP_0",
+          "BJP_6",
+          "BJP_9",
+          "BJP_10"
+        ],
+        "chunk_scores": [
+          0.0636,
+          0.0507,
+          0.0929,
+          0.1045
+        ]
+      },
+      "INC": {
+        "score": 0.0471,
+        "n_chunks": 9,
+        "mean_abs": 0.0628,
+        "chunk_ids": [
+          "INC_8",
+          "INC_47",
+          "INC_58",
+          "INC_59",
+          "INC_83",
+          "INC_84",
+          "INC_90",
+          "INC_109",
+          "INC_110"
+        ],
+        "chunk_scores": [
+          0.0905,
+          0.1097,
+          0.0241,
+          -0.0014,
+          -0.0461,
+          -0.0639,
+          0.1269,
+          -0.0712,
+          0.0319
+        ]
+      },
+      "CPIM": {
+        "score": 0.0361,
+        "n_chunks": 6,
+        "mean_abs": 0.0577,
+        "chunk_ids": [
+          "CPIM_0",
+          "CPIM_1",
+          "CPIM_2",
+          "CPIM_26",
+          "CPIM_34",
+          "CPIM_40"
+        ],
+        "chunk_scores": [
+          0.0046,
+          0.0378,
+          0.0724,
+          -0.0782,
+          -0.0376,
+          0.1154
+        ]
+      },
+      "TMC": {
+        "score": -0.0431,
+        "n_chunks": 8,
+        "mean_abs": 0.0297,
+        "chunk_ids": [
+          "TMC_0",
+          "TMC_1",
+          "TMC_2",
+          "TMC_3",
+          "TMC_7",
+          "TMC_11",
+          "TMC_104",
+          "TMC_120"
+        ],
+        "chunk_scores": [
+          0.0114,
+          -0.095,
+          -0.0239,
+          0.0348,
+          0.0095,
+          -0.0403,
+          -0.0214,
+          -0.0013
+        ]
+      },
+      "NCPSP": {
+        "score": null,
+        "n_chunks": 1,
+        "mean_abs": null,
+        "chunk_ids": [
+          "NCPSP_0"
+        ],
+        "chunk_scores": [
+          0.09097844362258911
+        ]
+      },
+      "DMK": {
+        "score": 0.0993,
+        "n_chunks": 17,
+        "mean_abs": 0.0542,
+        "chunk_ids": [
+          "DMK_0",
+          "DMK_1",
+          "DMK_2",
+          "DMK_3",
+          "DMK_6",
+          "DMK_7",
+          "DMK_8",
+          "DMK_9",
+          "DMK_10",
+          "DMK_11",
+          "DMK_12",
+          "DMK_13",
+          "DMK_15",
+          "DMK_20",
+          "DMK_23",
+          "DMK_68",
+          "DMK_69"
+        ],
+        "chunk_scores": [
+          0.0276,
+          0.0275,
+          0.0204,
+          0.0065,
+          0.1382,
+          0.1044,
+          0.0187,
+          0.0184,
+          -0.011,
+          0.0373,
+          0.1128,
+          0.0388,
+          0.012,
+          0.061,
+          0.1824,
+          0.0333,
+          0.0709
+        ]
+      },
+      "SP": {
+        "score": 0.144,
+        "n_chunks": 2,
+        "mean_abs": 0.1389,
+        "chunk_ids": [
+          "SP_0",
+          "SP_1"
+        ],
+        "chunk_scores": [
+          0.1655,
+          0.1123
+        ]
+      },
+      "NCPAP": {
+        "score": 0.1114,
+        "n_chunks": 11,
+        "mean_abs": 0.0802,
+        "chunk_ids": [
+          "NCPAP_0",
+          "NCPAP_1",
+          "NCPAP_2",
+          "NCPAP_3",
+          "NCPAP_4",
+          "NCPAP_6",
+          "NCPAP_7",
+          "NCPAP_11",
+          "NCPAP_26",
+          "NCPAP_33",
+          "NCPAP_34"
+        ],
+        "chunk_scores": [
+          0.141,
+          0.0524,
+          0.0236,
+          0.1866,
+          0.0149,
+          0.0902,
+          0.086,
+          0.0723,
+          0.1376,
+          -0.0368,
+          0.0404
+        ]
+      }
+    },
+    "infrastructure": {
+      "BJP": {
+        "score": 0.0944,
+        "n_chunks": 8,
+        "mean_abs": 0.0959,
+        "chunk_ids": [
+          "BJP_19",
+          "BJP_20",
+          "BJP_39",
+          "BJP_41",
+          "BJP_75",
+          "BJP_76",
+          "BJP_77",
+          "BJP_78"
+        ],
+        "chunk_scores": [
+          0.1819,
+          0.0567,
+          -0.0724,
+          -0.0501,
+          0.0925,
+          0.1025,
+          0.0705,
+          0.1409
+        ]
+      },
+      "INC": {
+        "score": 0.0336,
+        "n_chunks": 2,
+        "mean_abs": 0.0471,
+        "chunk_ids": [
+          "INC_62",
+          "INC_82"
+        ],
+        "chunk_scores": [
+          -0.0303,
+          0.0639
+        ]
+      },
+      "CPIM": {
+        "score": 0.032,
+        "n_chunks": 3,
+        "mean_abs": 0.036,
+        "chunk_ids": [
+          "CPIM_23",
+          "CPIM_58",
+          "CPIM_64"
+        ],
+        "chunk_scores": [
+          -0.019,
+          0.0659,
+          -0.0231
+        ]
+      },
+      "TMC": {
+        "score": 0.1084,
+        "n_chunks": 6,
+        "mean_abs": 0.0757,
+        "chunk_ids": [
+          "TMC_31",
+          "TMC_33",
+          "TMC_35",
+          "TMC_63",
+          "TMC_67",
+          "TMC_85"
+        ],
+        "chunk_scores": [
+          0.0549,
+          -0.0669,
+          -0.012,
+          0.0708,
+          0.2105,
+          0.039
+        ]
+      },
+      "NCPSP": {
+        "score": null,
+        "n_chunks": 0,
+        "mean_abs": null,
+        "chunk_ids": [],
+        "chunk_scores": []
+      },
+      "DMK": {
+        "score": 0.1634,
+        "n_chunks": 19,
+        "mean_abs": 0.1173,
+        "chunk_ids": [
+          "DMK_18",
+          "DMK_24",
+          "DMK_25",
+          "DMK_35",
+          "DMK_36",
+          "DMK_37",
+          "DMK_49",
+          "DMK_56",
+          "DMK_57",
+          "DMK_58",
+          "DMK_59",
+          "DMK_60",
+          "DMK_61",
+          "DMK_62",
+          "DMK_63",
+          "DMK_64",
+          "DMK_65",
+          "DMK_66",
+          "DMK_67"
+        ],
+        "chunk_scores": [
+          0.1007,
+          0.2449,
+          0.1244,
+          0.2236,
+          0.1647,
+          0.0178,
+          0.0316,
+          0.0591,
+          0.0899,
+          0.2167,
+          0.1698,
+          0.0386,
+          0.2117,
+          0.1014,
+          0.0278,
+          0.1623,
+          0.1413,
+          -0.007,
+          0.0959
+        ]
+      },
+      "SP": {
+        "score": null,
+        "n_chunks": 0,
+        "mean_abs": null,
+        "chunk_ids": [],
+        "chunk_scores": []
+      },
+      "NCPAP": {
+        "score": null,
+        "n_chunks": 0,
+        "mean_abs": null,
+        "chunk_ids": [],
+        "chunk_scores": []
+      }
+    },
+    "education": {
+      "BJP": {
+        "score": -0.0374,
+        "n_chunks": 11,
+        "mean_abs": 0.1169,
+        "chunk_ids": [
+          "BJP_14",
+          "BJP_15",
+          "BJP_33",
+          "BJP_52",
+          "BJP_53",
+          "BJP_54",
+          "BJP_64",
+          "BJP_90",
+          "BJP_95",
+          "BJP_96",
+          "BJP_97"
+        ],
+        "chunk_scores": [
+          0.0777,
+          -0.2362,
+          0.1926,
+          -0.1366,
+          -0.2108,
+          -0.0845,
+          0.0026,
+          -0.0599,
+          0.1946,
+          0.0477,
+          -0.0423
+        ]
+      },
+      "INC": {
+        "score": -0.1942,
+        "n_chunks": 28,
+        "mean_abs": 0.1411,
+        "chunk_ids": [
+          "INC_7",
+          "INC_11",
+          "INC_12",
+          "INC_13",
+          "INC_15",
+          "INC_16",
+          "INC_17",
+          "INC_19",
+          "INC_25",
+          "INC_26",
+          "INC_27",
+          "INC_28",
+          "INC_29",
+          "INC_30",
+          "INC_31",
+          "INC_32",
+          "INC_33",
+          "INC_34",
+          "INC_48",
+          "INC_49",
+          "INC_50",
+          "INC_53",
+          "INC_54",
+          "INC_55",
+          "INC_56",
+          "INC_71",
+          "INC_79",
+          "INC_91"
+        ],
+        "chunk_scores": [
+          -0.1508,
+          -0.2017,
+          -0.2739,
+          -0.0722,
+          0.0098,
+          -0.2357,
+          -0.0441,
+          -0.1201,
+          -0.2322,
+          -0.0745,
+          -0.3334,
+          -0.2445,
+          -0.1004,
+          -0.2089,
+          -0.1543,
+          -0.2326,
+          0.0236,
+          0.0145,
+          -0.1076,
+          -0.2143,
+          -0.2468,
+          -0.0544,
+          -0.0339,
+          -0.0188,
+          -0.1897,
+          0.0834,
+          -0.1161,
+          -0.1574
+        ]
+      },
+      "CPIM": {
+        "score": -0.185,
+        "n_chunks": 31,
+        "mean_abs": 0.151,
+        "chunk_ids": [
+          "CPIM_4",
+          "CPIM_5",
+          "CPIM_9",
+          "CPIM_10",
+          "CPIM_12",
+          "CPIM_24",
+          "CPIM_36",
+          "CPIM_43",
+          "CPIM_45",
+          "CPIM_73",
+          "CPIM_89",
+          "CPIM_90",
+          "CPIM_92",
+          "CPIM_93",
+          "CPIM_94",
+          "CPIM_95",
+          "CPIM_97",
+          "CPIM_98",
+          "CPIM_100",
+          "CPIM_101",
+          "CPIM_102",
+          "CPIM_105",
+          "CPIM_113",
+          "CPIM_115",
+          "CPIM_116",
+          "CPIM_117",
+          "CPIM_118",
+          "CPIM_119",
+          "CPIM_120",
+          "CPIM_121",
+          "CPIM_122"
+        ],
+        "chunk_scores": [
+          -0.1942,
+          -0.0268,
+          -0.1345,
+          -0.1493,
+          -0.2237,
+          -0.1111,
+          -0.201,
+          -0.2578,
+          -0.2707,
+          -0.1125,
+          -0.1839,
+          -0.2567,
+          -0.2072,
+          -0.221,
+          -0.1928,
+          -0.1752,
+          -0.1648,
+          -0.191,
+          -0.1634,
+          -0.0172,
+          0.0171,
+          0.0754,
+          -0.0409,
+          -0.2405,
+          0.0319,
+          -0.1201,
+          -0.1095,
+          -0.2207,
+          -0.0505,
+          -0.1411,
+          -0.1793
+        ]
+      },
+      "TMC": {
+        "score": 0.0386,
+        "n_chunks": 27,
+        "mean_abs": 0.0603,
+        "chunk_ids": [
+          "TMC_9",
+          "TMC_12",
+          "TMC_13",
+          "TMC_14",
+          "TMC_15",
+          "TMC_16",
+          "TMC_18",
+          "TMC_45",
+          "TMC_46",
+          "TMC_48",
+          "TMC_49",
+          "TMC_50",
+          "TMC_51",
+          "TMC_52",
+          "TMC_53",
+          "TMC_72",
+          "TMC_83",
+          "TMC_86",
+          "TMC_87",
+          "TMC_88",
+          "TMC_89",
+          "TMC_91",
+          "TMC_93",
+          "TMC_94",
+          "TMC_95",
+          "TMC_96",
+          "TMC_97"
+        ],
+        "chunk_scores": [
+          -0.0565,
+          -0.099,
+          -0.0321,
+          -0.0415,
+          -0.0091,
+          0.0273,
+          0.016,
+          -0.0845,
+          0.0255,
+          0.0272,
+          -0.0779,
+          0.0047,
+          0.0221,
+          0.022,
+          -0.0878,
+          -0.0147,
+          0.2517,
+          0.0679,
+          0.1343,
+          0.1388,
+          0.1187,
+          -0.0114,
+          -0.0212,
+          -0.0408,
+          -0.1404,
+          0.0175,
+          -0.0367
+        ]
+      },
+      "NCPSP": {
+        "score": -0.1332,
+        "n_chunks": 19,
+        "mean_abs": 0.1366,
+        "chunk_ids": [
+          "NCPSP_4",
+          "NCPSP_5",
+          "NCPSP_6",
+          "NCPSP_7",
+          "NCPSP_8",
+          "NCPSP_14",
+          "NCPSP_15",
+          "NCPSP_16",
+          "NCPSP_19",
+          "NCPSP_20",
+          "NCPSP_24",
+          "NCPSP_25",
+          "NCPSP_26",
+          "NCPSP_27",
+          "NCPSP_41",
+          "NCPSP_43",
+          "NCPSP_45",
+          "NCPSP_46",
+          "NCPSP_48"
+        ],
+        "chunk_scores": [
+          -0.0366,
+          -0.0736,
+          -0.1925,
+          0.2386,
+          -0.201,
+          -0.2217,
+          -0.2442,
+          -0.2055,
+          -0.1053,
+          -0.2134,
+          -0.1823,
+          -0.0879,
+          0.0445,
+          0.0114,
+          0.0478,
+          -0.2169,
+          -0.0967,
+          -0.054,
+          -0.1216
+        ]
+      },
+      "DMK": {
+        "score": -0.1502,
+        "n_chunks": 14,
+        "mean_abs": 0.0822,
+        "chunk_ids": [
+          "DMK_21",
+          "DMK_22",
+          "DMK_26",
+          "DMK_29",
+          "DMK_30",
+          "DMK_31",
+          "DMK_32",
+          "DMK_39",
+          "DMK_43",
+          "DMK_44",
+          "DMK_45",
+          "DMK_46",
+          "DMK_47",
+          "DMK_53"
+        ],
+        "chunk_scores": [
+          0.0323,
+          -0.0674,
+          0.0044,
+          -0.0495,
+          -0.2658,
+          0.0252,
+          -0.1019,
+          -0.0249,
+          -0.0781,
+          -0.0687,
+          0.0151,
+          -0.1113,
+          -0.0635,
+          -0.2426
+        ]
+      },
+      "SP": {
+        "score": -0.2198,
+        "n_chunks": 3,
+        "mean_abs": 0.1272,
+        "chunk_ids": [
+          "SP_2",
+          "SP_3",
+          "SP_5"
+        ],
+        "chunk_scores": [
+          -0.2787,
+          -0.0816,
+          0.0214
+        ]
+      },
+      "NCPAP": {
+        "score": null,
+        "n_chunks": 1,
+        "mean_abs": null,
+        "chunk_ids": [
+          "NCPAP_24"
+        ],
+        "chunk_scores": [
+          0.014717668294906616
+        ]
+      }
+    },
+    "social_security": {
+      "BJP": {
+        "score": -0.097,
+        "n_chunks": 2,
+        "mean_abs": 0.0711,
+        "chunk_ids": [
+          "BJP_36",
+          "BJP_37"
+        ],
+        "chunk_scores": [
+          -0.114,
+          -0.0282
+        ]
+      },
+      "INC": {
+        "score": -0.1203,
+        "n_chunks": 2,
+        "mean_abs": 0.1042,
+        "chunk_ids": [
+          "INC_18",
+          "INC_95"
+        ],
+        "chunk_scores": [
+          -0.1452,
+          -0.0632
+        ]
+      },
+      "CPIM": {
+        "score": -0.1247,
+        "n_chunks": 2,
+        "mean_abs": 0.1056,
+        "chunk_ids": [
+          "CPIM_107",
+          "CPIM_108"
+        ],
+        "chunk_scores": [
+          -0.1505,
+          -0.0607
+        ]
+      },
+      "TMC": {
+        "score": null,
+        "n_chunks": 1,
+        "mean_abs": null,
+        "chunk_ids": [
+          "TMC_102"
+        ],
+        "chunk_scores": [
+          -0.13119006156921387
+        ]
+      },
+      "NCPSP": {
+        "score": -0.1019,
+        "n_chunks": 3,
+        "mean_abs": 0.0823,
+        "chunk_ids": [
+          "NCPSP_17",
+          "NCPSP_18",
+          "NCPSP_21"
+        ],
+        "chunk_scores": [
+          -0.1699,
+          0.0186,
+          0.0582
+        ]
+      },
+      "DMK": {
+        "score": null,
+        "n_chunks": 0,
+        "mean_abs": null,
+        "chunk_ids": [],
+        "chunk_scores": []
+      },
+      "SP": {
+        "score": null,
+        "n_chunks": 0,
+        "mean_abs": null,
+        "chunk_ids": [],
+        "chunk_scores": []
+      },
+      "NCPAP": {
+        "score": null,
+        "n_chunks": 1,
+        "mean_abs": null,
+        "chunk_ids": [
+          "NCPAP_25"
+        ],
+        "chunk_scores": [
+          -0.12965577840805054
+        ]
+      }
+    },
+    "communal": {
+      "BJP": {
+        "score": null,
+        "n_chunks": 0,
+        "mean_abs": null,
+        "chunk_ids": [],
+        "chunk_scores": []
+      },
+      "INC": {
+        "score": null,
+        "n_chunks": 1,
+        "mean_abs": null,
+        "chunk_ids": [
+          "INC_9"
+        ],
+        "chunk_scores": [
+          -0.06959468126296997
+        ]
+      },
+      "CPIM": {
+        "score": -0.0944,
+        "n_chunks": 18,
+        "mean_abs": 0.0798,
+        "chunk_ids": [
+          "CPIM_3",
+          "CPIM_6",
+          "CPIM_7",
+          "CPIM_8",
+          "CPIM_25",
+          "CPIM_27",
+          "CPIM_28",
+          "CPIM_29",
+          "CPIM_30",
+          "CPIM_31",
+          "CPIM_37",
+          "CPIM_41",
+          "CPIM_44",
+          "CPIM_46",
+          "CPIM_49",
+          "CPIM_70",
+          "CPIM_91",
+          "CPIM_123"
+        ],
+        "chunk_scores": [
+          0.0487,
+          -0.1685,
+          -0.0849,
+          -0.1717,
+          -0.0214,
+          -0.0425,
+          -0.0934,
+          -0.0589,
+          -0.1015,
+          0.0326,
+          0.0227,
+          -0.0562,
+          -0.1313,
+          -0.0756,
+          0.0635,
+          -0.1098,
+          -0.0334,
+          -0.1203
+        ]
+      },
+      "TMC": {
+        "score": -0.082,
+        "n_chunks": 3,
+        "mean_abs": 0.0464,
+        "chunk_ids": [
+          "TMC_74",
+          "TMC_75",
+          "TMC_92"
+        ],
+        "chunk_scores": [
+          -0.0367,
+          -0.0021,
+          -0.1002
+        ]
+      },
+      "NCPSP": {
+        "score": null,
+        "n_chunks": 0,
+        "mean_abs": null,
+        "chunk_ids": [],
+        "chunk_scores": []
+      },
+      "DMK": {
+        "score": null,
+        "n_chunks": 0,
+        "mean_abs": null,
+        "chunk_ids": [],
+        "chunk_scores": []
+      },
+      "SP": {
+        "score": null,
+        "n_chunks": 0,
+        "mean_abs": null,
+        "chunk_ids": [],
+        "chunk_scores": []
+      },
+      "NCPAP": {
+        "score": null,
+        "n_chunks": 0,
+        "mean_abs": null,
+        "chunk_ids": [],
+        "chunk_scores": []
+      }
+    }
+  },
+  "matrix": {
+    "agriculture": {
+      "BJP": null,
+      "INC": -0.011,
+      "CPIM": -0.1245,
+      "TMC": -0.1376,
+      "NCPSP": null,
+      "DMK": -0.2283,
+      "SP": null,
+      "NCPAP": null
+    },
+    "economy": {
+      "BJP": 0.1538,
+      "INC": 0.0793,
+      "CPIM": 0.0889,
+      "TMC": 0.1568,
+      "NCPSP": 0.1551,
+      "DMK": -0.0209,
+      "SP": 0.065,
+      "NCPAP": 0.1565
+    },
+    "public_sector": {
+      "BJP": 0.0667,
+      "INC": 0.0241,
+      "CPIM": 0.0137,
+      "TMC": -0.019,
+      "NCPSP": -0.0778,
+      "DMK": -0.0493,
+      "SP": null,
+      "NCPAP": null
+    },
+    "labour": {
+      "BJP": -0.1364,
+      "INC": -0.159,
+      "CPIM": -0.2004,
+      "TMC": -0.1555,
+      "NCPSP": null,
+      "DMK": -0.164,
+      "SP": null,
+      "NCPAP": null
+    },
+    "healthcare": {
+      "BJP": -0.0527,
+      "INC": -0.0908,
+      "CPIM": -0.0362,
+      "TMC": 0.0822,
+      "NCPSP": 0.0189,
+      "DMK": -0.0524,
+      "SP": null,
+      "NCPAP": null
+    },
+    "women": {
+      "BJP": 0.1618,
+      "INC": -0.086,
+      "CPIM": -0.1847,
+      "TMC": 0.1135,
+      "NCPSP": 0.0111,
+      "DMK": null,
+      "SP": null,
+      "NCPAP": 0.1238
+    },
+    "defence": {
+      "BJP": 0.0679,
+      "INC": 0.0865,
+      "CPIM": 0.0113,
+      "TMC": 0.1374,
+      "NCPSP": 0.1788,
+      "DMK": null,
+      "SP": null,
+      "NCPAP": -0.0801
+    },
+    "environment": {
+      "BJP": 0.1368,
+      "INC": 0.0306,
+      "CPIM": -0.0732,
+      "TMC": -0.0164,
+      "NCPSP": 0.0761,
+      "DMK": 0.0867,
+      "SP": 0.0888,
+      "NCPAP": -0.0853
+    },
+    "federalism": {
+      "BJP": 0.084,
+      "INC": 0.0471,
+      "CPIM": 0.0361,
+      "TMC": -0.0431,
+      "NCPSP": null,
+      "DMK": 0.0993,
+      "SP": 0.144,
+      "NCPAP": 0.1114
+    },
+    "infrastructure": {
+      "BJP": 0.0944,
+      "INC": 0.0336,
+      "CPIM": 0.032,
+      "TMC": 0.1084,
+      "NCPSP": null,
+      "DMK": 0.1634,
+      "SP": null,
+      "NCPAP": null
+    },
+    "education": {
+      "BJP": -0.0374,
+      "INC": -0.1942,
+      "CPIM": -0.185,
+      "TMC": 0.0386,
+      "NCPSP": -0.1332,
+      "DMK": -0.1502,
+      "SP": -0.2198,
+      "NCPAP": null
+    },
+    "social_security": {
+      "BJP": -0.097,
+      "INC": -0.1203,
+      "CPIM": -0.1247,
+      "TMC": null,
+      "NCPSP": -0.1019,
+      "DMK": null,
+      "SP": null,
+      "NCPAP": null
+    },
+    "communal": {
+      "BJP": null,
+      "INC": null,
+      "CPIM": -0.0944,
+      "TMC": -0.082,
+      "NCPSP": null,
+      "DMK": null,
+      "SP": null,
+      "NCPAP": null
+    }
+  }
+}
