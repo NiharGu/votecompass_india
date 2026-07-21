@@ -1,0 +1,548 @@
+{
+  "agriculture": {
+    "BJP": {
+      "raw_mean": 0.4468,
+      "n_chunks": 17,
+      "low_confidence": false
+    },
+    "INC": {
+      "raw_mean": -0.0902,
+      "n_chunks": 3,
+      "low_confidence": false
+    },
+    "CPIM": {
+      "raw_mean": -0.1521,
+      "n_chunks": 3,
+      "low_confidence": false
+    },
+    "TMC": {
+      "raw_mean": -0.0338,
+      "n_chunks": 4,
+      "low_confidence": false
+    },
+    "NCPSP": {
+      "raw_mean": 0.0444,
+      "n_chunks": 15,
+      "low_confidence": false
+    },
+    "DMK": {
+      "raw_mean": -0.0331,
+      "n_chunks": 17,
+      "low_confidence": false
+    },
+    "SP": {
+      "raw_mean": -0.257,
+      "n_chunks": 1,
+      "low_confidence": true
+    },
+    "NCPAP": {
+      "raw_mean": -0.096,
+      "n_chunks": 5,
+      "low_confidence": false
+    }
+  },
+  "economy": {
+    "BJP": {
+      "raw_mean": 0.0048,
+      "n_chunks": 47,
+      "low_confidence": false
+    },
+    "INC": {
+      "raw_mean": -0.1192,
+      "n_chunks": 24,
+      "low_confidence": false
+    },
+    "CPIM": {
+      "raw_mean": -0.3398,
+      "n_chunks": 12,
+      "low_confidence": false
+    },
+    "TMC": {
+      "raw_mean": -0.2385,
+      "n_chunks": 14,
+      "low_confidence": false
+    },
+    "NCPSP": {
+      "raw_mean": -0.1983,
+      "n_chunks": 4,
+      "low_confidence": false
+    },
+    "DMK": {
+      "raw_mean": -0.568,
+      "n_chunks": 17,
+      "low_confidence": false
+    },
+    "SP": {
+      "raw_mean": 0.011,
+      "n_chunks": 2,
+      "low_confidence": true
+    },
+    "NCPAP": {
+      "raw_mean": -0.1149,
+      "n_chunks": 9,
+      "low_confidence": false
+    }
+  },
+  "public_sector": {
+    "BJP": {
+      "raw_mean": -0.289,
+      "n_chunks": 35,
+      "low_confidence": false
+    },
+    "INC": {
+      "raw_mean": 0.0039,
+      "n_chunks": 3,
+      "low_confidence": false
+    },
+    "CPIM": {
+      "raw_mean": 0.0354,
+      "n_chunks": 15,
+      "low_confidence": false
+    },
+    "TMC": {
+      "raw_mean": -0.179,
+      "n_chunks": 4,
+      "low_confidence": false
+    },
+    "NCPSP": {
+      "raw_mean": -0.1349,
+      "n_chunks": 4,
+      "low_confidence": false
+    },
+    "DMK": {
+      "raw_mean": -0.275,
+      "n_chunks": 31,
+      "low_confidence": false
+    },
+    "SP": {
+      "raw_mean": null,
+      "n_chunks": 0,
+      "low_confidence": true
+    },
+    "NCPAP": {
+      "raw_mean": -0.0285,
+      "n_chunks": 18,
+      "low_confidence": false
+    }
+  },
+  "labour": {
+    "BJP": {
+      "raw_mean": -1.1814,
+      "n_chunks": 5,
+      "low_confidence": false
+    },
+    "INC": {
+      "raw_mean": -0.2963,
+      "n_chunks": 5,
+      "low_confidence": false
+    },
+    "CPIM": {
+      "raw_mean": -0.2527,
+      "n_chunks": 10,
+      "low_confidence": false
+    },
+    "TMC": {
+      "raw_mean": -1.0245,
+      "n_chunks": 8,
+      "low_confidence": false
+    },
+    "NCPSP": {
+      "raw_mean": -1.1438,
+      "n_chunks": 20,
+      "low_confidence": false
+    },
+    "DMK": {
+      "raw_mean": -0.719,
+      "n_chunks": 5,
+      "low_confidence": false
+    },
+    "SP": {
+      "raw_mean": -0.3969,
+      "n_chunks": 1,
+      "low_confidence": true
+    },
+    "NCPAP": {
+      "raw_mean": -2.0709,
+      "n_chunks": 9,
+      "low_confidence": false
+    }
+  },
+  "healthcare": {
+    "BJP": {
+      "raw_mean": -0.1261,
+      "n_chunks": 4,
+      "low_confidence": false
+    },
+    "INC": {
+      "raw_mean": 0.0417,
+      "n_chunks": 4,
+      "low_confidence": false
+    },
+    "CPIM": {
+      "raw_mean": 0.4125,
+      "n_chunks": 12,
+      "low_confidence": false
+    },
+    "TMC": {
+      "raw_mean": -0.131,
+      "n_chunks": 4,
+      "low_confidence": false
+    },
+    "NCPSP": {
+      "raw_mean": 0.1873,
+      "n_chunks": 13,
+      "low_confidence": false
+    },
+    "DMK": {
+      "raw_mean": 0.1484,
+      "n_chunks": 3,
+      "low_confidence": false
+    },
+    "SP": {
+      "raw_mean": 0.0675,
+      "n_chunks": 1,
+      "low_confidence": true
+    },
+    "NCPAP": {
+      "raw_mean": 0.7157,
+      "n_chunks": 3,
+      "low_confidence": false
+    }
+  },
+  "women": {
+    "BJP": {
+      "raw_mean": 0.1994,
+      "n_chunks": 5,
+      "low_confidence": false
+    },
+    "INC": {
+      "raw_mean": 0.2594,
+      "n_chunks": 6,
+      "low_confidence": false
+    },
+    "CPIM": {
+      "raw_mean": -0.0404,
+      "n_chunks": 6,
+      "low_confidence": false
+    },
+    "TMC": {
+      "raw_mean": 0.3385,
+      "n_chunks": 9,
+      "low_confidence": false
+    },
+    "NCPSP": {
+      "raw_mean": 0.345,
+      "n_chunks": 4,
+      "low_confidence": false
+    },
+    "DMK": {
+      "raw_mean": 0.1276,
+      "n_chunks": 2,
+      "low_confidence": true
+    },
+    "SP": {
+      "raw_mean": 0.1446,
+      "n_chunks": 1,
+      "low_confidence": true
+    },
+    "NCPAP": {
+      "raw_mean": 0.1192,
+      "n_chunks": 3,
+      "low_confidence": false
+    }
+  },
+  "defence": {
+    "BJP": {
+      "raw_mean": 0.2631,
+      "n_chunks": 4,
+      "low_confidence": false
+    },
+    "INC": {
+      "raw_mean": 0.1775,
+      "n_chunks": 8,
+      "low_confidence": false
+    },
+    "CPIM": {
+      "raw_mean": 0.3142,
+      "n_chunks": 8,
+      "low_confidence": false
+    },
+    "TMC": {
+      "raw_mean": 0.2214,
+      "n_chunks": 3,
+      "low_confidence": false
+    },
+    "NCPSP": {
+      "raw_mean": 0.2487,
+      "n_chunks": 44,
+      "low_confidence": false
+    },
+    "DMK": {
+      "raw_mean": 0.2538,
+      "n_chunks": 67,
+      "low_confidence": false
+    },
+    "SP": {
+      "raw_mean": 0.0798,
+      "n_chunks": 1,
+      "low_confidence": true
+    },
+    "NCPAP": {
+      "raw_mean": 0.1702,
+      "n_chunks": 33,
+      "low_confidence": false
+    }
+  },
+  "environment": {
+    "BJP": {
+      "raw_mean": 0.3142,
+      "n_chunks": 7,
+      "low_confidence": false
+    },
+    "INC": {
+      "raw_mean": 0.1123,
+      "n_chunks": 16,
+      "low_confidence": false
+    },
+    "CPIM": {
+      "raw_mean": 0.0282,
+      "n_chunks": 8,
+      "low_confidence": false
+    },
+    "TMC": {
+      "raw_mean": -0.0009,
+      "n_chunks": 5,
+      "low_confidence": false
+    },
+    "NCPSP": {
+      "raw_mean": 0.187,
+      "n_chunks": 7,
+      "low_confidence": false
+    },
+    "DMK": {
+      "raw_mean": 0.1796,
+      "n_chunks": 3,
+      "low_confidence": false
+    },
+    "SP": {
+      "raw_mean": 0.0836,
+      "n_chunks": 2,
+      "low_confidence": true
+    },
+    "NCPAP": {
+      "raw_mean": -0.0104,
+      "n_chunks": 4,
+      "low_confidence": false
+    }
+  },
+  "federalism": {
+    "BJP": {
+      "raw_mean": -0.821,
+      "n_chunks": 4,
+      "low_confidence": false
+    },
+    "INC": {
+      "raw_mean": -0.0913,
+      "n_chunks": 9,
+      "low_confidence": false
+    },
+    "CPIM": {
+      "raw_mean": 0.1675,
+      "n_chunks": 6,
+      "low_confidence": false
+    },
+    "TMC": {
+      "raw_mean": 0.0112,
+      "n_chunks": 8,
+      "low_confidence": false
+    },
+    "NCPSP": {
+      "raw_mean": 0.0905,
+      "n_chunks": 4,
+      "low_confidence": false
+    },
+    "DMK": {
+      "raw_mean": -0.08,
+      "n_chunks": 17,
+      "low_confidence": false
+    },
+    "SP": {
+      "raw_mean": 0.1565,
+      "n_chunks": 2,
+      "low_confidence": true
+    },
+    "NCPAP": {
+      "raw_mean": -0.0014,
+      "n_chunks": 11,
+      "low_confidence": false
+    }
+  },
+  "infrastructure": {
+    "BJP": {
+      "raw_mean": 0.5731,
+      "n_chunks": 8,
+      "low_confidence": false
+    },
+    "INC": {
+      "raw_mean": 0.1764,
+      "n_chunks": 61,
+      "low_confidence": false
+    },
+    "CPIM": {
+      "raw_mean": 0.3307,
+      "n_chunks": 3,
+      "low_confidence": false
+    },
+    "TMC": {
+      "raw_mean": 0.4307,
+      "n_chunks": 6,
+      "low_confidence": false
+    },
+    "NCPSP": {
+      "raw_mean": 0.0735,
+      "n_chunks": 41,
+      "low_confidence": false
+    },
+    "DMK": {
+      "raw_mean": 0.4636,
+      "n_chunks": 19,
+      "low_confidence": false
+    },
+    "SP": {
+      "raw_mean": null,
+      "n_chunks": 0,
+      "low_confidence": true
+    },
+    "NCPAP": {
+      "raw_mean": 0.5301,
+      "n_chunks": 24,
+      "low_confidence": false
+    }
+  },
+  "education": {
+    "BJP": {
+      "raw_mean": 0.1498,
+      "n_chunks": 11,
+      "low_confidence": false
+    },
+    "INC": {
+      "raw_mean": -1.9192,
+      "n_chunks": 28,
+      "low_confidence": false
+    },
+    "CPIM": {
+      "raw_mean": -0.1436,
+      "n_chunks": 31,
+      "low_confidence": false
+    },
+    "TMC": {
+      "raw_mean": -0.4266,
+      "n_chunks": 27,
+      "low_confidence": false
+    },
+    "NCPSP": {
+      "raw_mean": -0.126,
+      "n_chunks": 19,
+      "low_confidence": false
+    },
+    "DMK": {
+      "raw_mean": -0.2882,
+      "n_chunks": 14,
+      "low_confidence": false
+    },
+    "SP": {
+      "raw_mean": -0.2777,
+      "n_chunks": 3,
+      "low_confidence": false
+    },
+    "NCPAP": {
+      "raw_mean": -0.0958,
+      "n_chunks": 4,
+      "low_confidence": false
+    }
+  },
+  "social_security": {
+    "BJP": {
+      "raw_mean": 0.0977,
+      "n_chunks": 7,
+      "low_confidence": false
+    },
+    "INC": {
+      "raw_mean": -0.236,
+      "n_chunks": 6,
+      "low_confidence": false
+    },
+    "CPIM": {
+      "raw_mean": 0.2174,
+      "n_chunks": 13,
+      "low_confidence": false
+    },
+    "TMC": {
+      "raw_mean": -0.1965,
+      "n_chunks": 14,
+      "low_confidence": false
+    },
+    "NCPSP": {
+      "raw_mean": 0.2852,
+      "n_chunks": 3,
+      "low_confidence": false
+    },
+    "DMK": {
+      "raw_mean": 0.114,
+      "n_chunks": 6,
+      "low_confidence": false
+    },
+    "SP": {
+      "raw_mean": null,
+      "n_chunks": 0,
+      "low_confidence": true
+    },
+    "NCPAP": {
+      "raw_mean": 0.3772,
+      "n_chunks": 4,
+      "low_confidence": false
+    }
+  },
+  "communal": {
+    "BJP": {
+      "raw_mean": 0.4214,
+      "n_chunks": 6,
+      "low_confidence": false
+    },
+    "INC": {
+      "raw_mean": -0.1756,
+      "n_chunks": 4,
+      "low_confidence": false
+    },
+    "CPIM": {
+      "raw_mean": -0.2554,
+      "n_chunks": 18,
+      "low_confidence": false
+    },
+    "TMC": {
+      "raw_mean": -0.5554,
+      "n_chunks": 3,
+      "low_confidence": false
+    },
+    "NCPSP": {
+      "raw_mean": 0.128,
+      "n_chunks": 10,
+      "low_confidence": false
+    },
+    "DMK": {
+      "raw_mean": 0.0787,
+      "n_chunks": 10,
+      "low_confidence": false
+    },
+    "SP": {
+      "raw_mean": null,
+      "n_chunks": 0,
+      "low_confidence": true
+    },
+    "NCPAP": {
+      "raw_mean": 0.1916,
+      "n_chunks": 4,
+      "low_confidence": false
+    }
+  }
+}
